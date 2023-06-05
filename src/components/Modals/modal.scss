@@ -1,0 +1,100 @@
+.modal-wrapper {
+  z-index: 9999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.modal-title {
+  display: flex;
+  justify-content: center;
+
+  .title-text {
+    font-size: 1.4rem;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    text-align: center;
+    line-height: 2rem;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.15s ease-in;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: end;
+  gap: 0.75rem;
+  padding-top: 1rem;
+}
+
+.modal-m {
+  width: 32rem;
+}
+
+.modal-l {
+  width: 70vw;
+  max-width: 60rem;
+  min-height: 80vh;
+}
+
+.overlay {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.add-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form-input {
+  height: 2rem;
+  border: 1px solid lightblue;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+}
+
+.form-textarea {
+  min-height: 8rem;
+  border: 1px solid lightblue;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+}
+
+.card-details {
+  display: flex;
+
+  .card-content {
+    flex-grow: 1;
+    max-width: 70%;
+    padding: 0.75rem;
+  }
+
+  .card-sidebar {
+    width: 30%;
+    padding: 0.75rem;
+  }
+}

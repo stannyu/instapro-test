@@ -1,0 +1,32 @@
+/**
+  * Note: in real app I would use more complex structure for styles
+  * like BEM or SMACSS (or any other way to do things around styling), with variables, mixins, etc.
+  *
+  * But for this test task I kept things simple
+  * and used only basic CSS features
+  * didn't separate styles too much, just followed co-location principle
+  */
+
+.button-default {
+  align-self: baseline;
+  padding: 10px 20px;
+  background: #f9f9f9;
+}
+
+.button-primary {
+  color: white;
+  background: rgb(76, 145, 182);
+}
+
+.button-outline {
+  border: 2px solid #b1b1b1;
+}
+
+.button-danger {
+  color: white;
+  background: rgb(231, 64, 136);
+}
+
+.validation-error {
+  border: 1px solid red;
+}
