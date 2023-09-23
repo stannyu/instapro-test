@@ -21,6 +21,7 @@ import "./board.scss";
 // const initialBoardState: BoardState = {
 //   columns: [],
 //   cards: [],
+// or else
 // };
 
 const initialBoardState: BoardState = {
