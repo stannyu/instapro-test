@@ -27,7 +27,7 @@ const CardDetailsModal: React.FC<CardDetailsModalProps> = ({
   const bodyContent = (
     <div className="card-details">
       <div className="card-content">
-        <h2>{card.title}</h2>
+        <h2 onClick={() => console.log("aaa")}>{card.title}</h2>
         <p>{card.content}</p>
       </div>
       <div className="card-sidebar">
